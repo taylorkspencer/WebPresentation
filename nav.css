@@ -1,0 +1,135 @@
+body
+{
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+	font-size: smaller;
+	display: block;
+	overflow: hidden;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #FFFFFF;
+}
+
+#slideNav
+{
+	background-color: #FFFFFF;
+	margin: 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #666666;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #666666;
+	display: block;
+	vertical-align: top;
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.title
+{
+	display: block;
+	vertical-align: middle;
+	margin: 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #FFFFFF;
+	background-color: #CCCCCC;
+	height: 20px;
+	padding: 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	width: 100%;
+}
+
+a
+{
+	display: block;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 1px;
+	height: 15px;
+	width: 100%;
+	color: #000000;
+	text-decoration: none;
+}
+
+a:active
+{
+	color: #FFFFFF;
+	background-color: #000066;
+}
+
+a:focus
+{
+	color: #FFFFFF;
+	background-color: #000066;
+}
+
+.closeBtn
+{
+	float: right;
+	border: 1px solid #CCCCCC;
+	margin: 0px;
+	padding: 0px;
+	clear: none;
+	height: 16px;
+	width: 16px;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+img
+{
+	border: 0px none;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.closeBtn:hover
+{
+	border-top-color: #FFFFFF;
+	border-right-color: #666666;
+	border-bottom-color: #666666;
+	border-left-color: #FFFFFF;
+}
+
+.closeBtn:active
+{
+	border-top-color: #666666;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #666666;
+}
+
+.closeBtn:focus
+{
+	border-top-color: #666666;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #666666;
+}

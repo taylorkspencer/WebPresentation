@@ -1,0 +1,96 @@
+.content
+{
+	display: block;
+	position: absolute;
+	left: 1%;
+	top: 1%;
+	right: 1%;
+	bottom: 1%;
+	border: 2px solid #000000;
+	background-color: #FFFFFF;
+	height: 97%;
+	width: 97%;
+}
+
+body
+{
+	background-color: #666666;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.title
+{
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 24pt;
+	font-weight: bold;
+	right: 0px;
+	left: 0px;
+	width: 100%;
+	clear: none;
+	position: absolute;
+}
+
+.left-align
+{
+	left: 0px;
+	position: relative;
+	clear: none;
+	float: left;
+	text-align: left;
+	margin-right: auto;
+}
+
+.right-align
+{
+	right: 0px;
+	position: relative;
+	clear: none;
+	text-align: right;
+	float: right;
+	margin-left: auto;
+}
+
+.row
+{
+	display: table-row;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.center-align
+{
+	left: 0px;
+	text-align: center;
+	right: 0px;
+	clear: none;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div
+{
+	font-family: sans-serif;
+	vertical-align: middle;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+hr
+{
+	position: relative;
+	width: 98%;
+	left: 0.5%;
+	right: 0.5%;
+	color: #CCCCCC;
+	background-color: #CCCCCC;
+	display: block;
+	text-align: center;
+}
